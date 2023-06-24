@@ -1,0 +1,19 @@
+package oops;
+
+public class thisKeyword {
+	int i;
+	void setValue(int i) {
+		i=i;
+	}
+	void show() {
+		System.out.println(i);
+	}
+
+	public static void main(String[] args) {
+		thisKeyword t = new thisKeyword();
+		t.setValue(10);
+		t.show();
+
+	}
+
+}

@@ -1,10 +1,9 @@
-//This keyWord refers to the current object
 package oops;
 
 public class thisKeyword {
 	int i;
-	void setValue(int i) {  //(int x)
-		this.i=i;                 // i=x (works)
+	void setValue(int x) {
+		i=x;
 	}
 	void show() {
 		System.out.println(i); //print 10 but when giving setValue(int i) it will throw error
