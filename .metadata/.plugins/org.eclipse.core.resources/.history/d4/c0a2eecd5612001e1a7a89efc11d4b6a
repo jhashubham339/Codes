@@ -1,0 +1,29 @@
+package oops;
+
+class pEmpolyee {
+	String name;
+	int salary;
+}
+
+class nEmployee extends pEmpolyee {
+	int Age;
+	String Address;
+	int employeeId;
+}
+
+public class inheritance {
+
+	public static void main(String[] args) {
+		pEmpolyee aa = new pEmpolyee();
+		nEmployee bb = new nEmployee();
+		bb.name = "Shubham";
+		bb.salary = 24165;
+		bb.Age = 25;
+		bb.employeeId = 10;
+		System.out.println("Name: " + bb.name);
+		System.out.println("Salary:" + bb.salary);
+		System.out.println("Age:" + bb.Age);
+		System.out.println("Employee Id :" + bb.employeeId);
+	}
+
+}

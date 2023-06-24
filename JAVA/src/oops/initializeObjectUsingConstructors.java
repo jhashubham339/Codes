@@ -1,0 +1,22 @@
+package oops;
+
+public class initializeObjectUsingConstructors {
+	
+	String name;
+	int Id;
+
+	public  initializeObjectUsingConstructors(String name, int Id) {
+		this.name = name;
+		this.Id = Id;
+	}
+
+	public static void main(String[] args) {
+		initializeObjectUsingConstructors emp = new initializeObjectUsingConstructors("Shubham", 10);
+		initializeObjectUsingConstructors emp2 = new initializeObjectUsingConstructors("Rohan", 25);
+		
+		System.out.println(emp.name + " : " + emp.Id);
+		System.out.println(emp2.name + " : " + emp2.Id);
+
+	}
+
+}
