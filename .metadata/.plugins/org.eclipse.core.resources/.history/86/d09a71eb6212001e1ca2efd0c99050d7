@@ -1,0 +1,11 @@
+//super keyWord is a referance variable which is used to refer immediate parent class object
+package oops;
+
+public class superKeyword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

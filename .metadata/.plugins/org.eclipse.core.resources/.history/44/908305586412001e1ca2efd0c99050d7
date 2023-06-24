@@ -1,4 +1,4 @@
-//This keyWord is the referance variable that refers to the current class instance variable
+//This keyWord is the referance variable that refers to the current object
 package oops;
 
 public class thisKeyword {

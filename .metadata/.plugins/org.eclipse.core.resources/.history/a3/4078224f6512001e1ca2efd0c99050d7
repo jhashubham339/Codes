@@ -1,0 +1,12 @@
+package oops;
+
+public class finalKeyword {
+
+	public static void main(String[] args) {
+		 final int i=10;        //int i=10 print 30 but when make it final throw error
+		i= i+20;                //error (We can't change the value)
+		System.out.println(i);
+
+	}
+
+}
