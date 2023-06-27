@@ -1,0 +1,11 @@
+//Also called Compile time Exception
+package exceptionHandling;
+
+public class checkedExceptions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
