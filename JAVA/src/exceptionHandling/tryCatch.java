@@ -1,0 +1,22 @@
+package exceptionHandling;
+
+public class tryCatch {
+
+	public static void main(String[] args) {
+		
+		try { 
+			int a = 100 , b=0, c; //If any exception will throw then will go to catch else Not.
+			c = a/b;
+			System.out.println(c);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);   // print exceptionName and discreption.
+		
+			e.printStackTrace();  // print exceptionName ,discreption and StackTrace (Best to use )
+		}
+		
+
+	}
+
+}
