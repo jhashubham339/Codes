@@ -1,0 +1,14 @@
+package thread;
+
+public class createThreadUsingRunnable implements Runnable{
+	
+	public void run() {
+		System.out.println("Test Task");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
