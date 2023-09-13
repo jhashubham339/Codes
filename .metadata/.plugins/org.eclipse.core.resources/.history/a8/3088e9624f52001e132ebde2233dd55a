@@ -1,0 +1,28 @@
+package collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+public class setCollection {
+
+	public static void main(String[] args) {
+		
+		Set s = new HashSet();
+		s.add(20);
+		s.add(30);
+		s.add(30);          // it will not give output duplicate values 
+		s.add(null);
+		
+		
+		System.out.println(" "+s);     //Output ->  [100, 200, 500]
+		
+		//Retrieving Elements from Collection
+		// in Java (For-each, Iterator, ListIterator & EnumerationIterator)
+		
+		Iterator itr =s.iterator();          // -> 100                                         
+		while(itr.hasNext()) {                   //200
+                                                 //500
+			System.out.println(itr.next());
+		}
+	}
+
+}
