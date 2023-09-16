@@ -1,0 +1,18 @@
+package collection;
+
+import java.util.HashSet;
+
+public class hashset_Collection {
+
+	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		
+		hs.add(100);
+		hs.add("Shu");
+		hs.add(200);
+		
+		System.out.println(hs);
+
+	}
+
+}
