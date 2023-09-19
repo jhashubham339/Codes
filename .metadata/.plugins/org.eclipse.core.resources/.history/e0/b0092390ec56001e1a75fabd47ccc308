@@ -1,0 +1,6 @@
+package lambdaExpression;
+
+@FunctionalInterface
+public interface addNumber {
+	public abstract int sum(int a, int b);
+}
