@@ -1,0 +1,13 @@
+//Palindrome : Palindrome numbers are the numbers that don't change when reversed. 
+//Ex: N =121 OUTPUT: 121, N =51415 OUTPUT: 51415
+
+package Maths;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

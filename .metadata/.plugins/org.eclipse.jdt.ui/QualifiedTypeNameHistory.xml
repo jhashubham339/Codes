@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
 </qualifiedTypeNameHistroy>

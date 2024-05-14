@@ -1,0 +1,18 @@
+//3.Reverse Number: Ex: N =7789 OUTPUT: 9877
+
+package Maths;
+
+public class Reverse_Number {
+
+	public static void main(String[] args) {
+		int n=7789,lastDigit,reverse=0;
+		while(n>0) {
+			lastDigit = n%10;
+			n=n/10;
+			reverse = (reverse * 10) + lastDigit;
+		}
+		System.out.println("output = " +reverse);
+	}
+}
+
+//output = 9877

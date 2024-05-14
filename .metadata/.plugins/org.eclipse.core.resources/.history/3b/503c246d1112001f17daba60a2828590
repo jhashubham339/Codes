@@ -1,0 +1,10 @@
+package Maths;
+
+public class Print_all_Divisors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
