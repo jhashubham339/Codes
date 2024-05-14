@@ -1,0 +1,39 @@
+//5.Armstrong Number: It's a number that equals the sum of its digits, each raised to a power.
+//Ex: N =153 1^3 + 5^3 + 3^3 OUTPUT: 153, N =1634 1^4 + 6^4 + 3^4 + 4^4 OUTPUT: 1634.
+
+//Hint:
+// 	int a = 2;
+//        int b = 5;
+//        System.out.println(Math.pow(a, b)); return 2^5 = 32.
+//
+//	This line -> int numberOfDigit = String.valueOf(n).length(); 
+//        String.valueOf(n): This part converts the integer n into its string.
+//	.length():used to get the length of a string in Java.
+//	String.valueOf(n).length() returns the number of characters in the string.  
+
+	
+package Maths;
+
+public class Armstrong_Number {
+
+	public static void main(String[] args) {
+		int n =1634, lastDigit,sum=0,dub=n;
+	    int numberOfDigit = String.valueOf(n).length(); 
+	    while(n>0){
+	         lastDigit = n % 10;
+	         sum = sum + (int)Math.pow(lastDigit,numberOfDigit); //(int) is type cast. It's used to convert a value from one data type to another.
+	        n =n/10;
+		}
+		if(sum == dub){
+		        System.out.println("Armstrong");
+		}else{
+		    System.out.println("Not Armstrong");
+		}
+	}
+}
+
+//TC = O(log n)
+//SC = O(1)
+
+//code360: https://bit.ly/3vBfkbD
+//leetcode : https://leetcode.com/problems/armstrong-number/description/
