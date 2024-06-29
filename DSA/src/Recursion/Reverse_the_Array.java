@@ -1,0 +1,34 @@
+//Reverse the array using recursion(Two Pointer).
+
+package Recursion;
+
+public class Reverse_the_Array {
+
+	//Print the array
+	static void printArray(int arr[] , int n) {
+		for(int i=0;i<n;i++) {
+			System.out.print(arr[i] +" ");
+		}
+	}
+	
+	//Reverse the array 
+	static void reverse(int arr[],int s, int e) {
+		if(s<e) {
+			int temp = arr[s];
+			arr[s]=arr[e];
+			arr[e]=temp;
+			reverse(arr ,s+1,e-1);
+		}
+	}
+	
+	public static void main(String[] args) {
+		int n=8;
+		int arr[]= {1,2,3,4,5,8,9,11};
+		reverse(arr,0,n-1);
+		printArray(arr, n);
+	}
+}
+
+//Output : 11 9 8 5 4 3 2 1 
+//TC : O(n)
+

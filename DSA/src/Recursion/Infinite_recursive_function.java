@@ -1,0 +1,17 @@
+//Print Hello infinite times.
+
+package Recursion;
+
+public class Infinite_recursive_function {
+	
+	static void fun() {
+		System.out.println("Hello");
+		fun();
+	}
+
+	public static void main(String[] args) {
+		fun();
+	}
+}
+
+// Output: -> It will print Hello until unless stack overflow.

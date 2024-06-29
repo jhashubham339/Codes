@@ -1,0 +1,18 @@
+package Recursion;
+
+public class Sum_of_1st_N_Numbes {
+	
+	static void sum(int i , int n) {
+		int sum =0;
+		if(i>n)
+			return;
+		sum = sum+i;
+		sum(i+1,n);
+		System.out.println("Sum of "+ n +" is "+ sum);
+	}
+
+	public static void main(String[] args) {
+		sum(1,10);
+	}
+
+}

@@ -1,0 +1,16 @@
+package Recursion;
+
+public class Print_linearly_1toN {
+
+	static void fun(int i , int n) {
+		if(i>n)
+			return;
+		System.out.print(i +" ");
+		fun(i+1,n);
+	}
+
+	public static void main(String[] args) {
+		fun(1,10);
+	}
+
+}
