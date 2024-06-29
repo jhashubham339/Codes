@@ -1,0 +1,10 @@
+package Recursion;
+
+public class Sum_of_1st_N_Numbes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

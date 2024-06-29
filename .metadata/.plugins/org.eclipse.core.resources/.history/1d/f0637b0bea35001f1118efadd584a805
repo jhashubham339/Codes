@@ -1,0 +1,17 @@
+//Reverse the array using recursion(Two Pointer).
+
+package Recursion;
+
+public class Reverse_the_Array {
+
+	//Print the array
+	static void printArray(int i,int n) {
+		for(i=1;i<=n;i++) {
+			System.out.print(i +" ");
+		}
+	}
+	public static void main(String[] args) {
+		printArray(1,10);
+	}
+
+}

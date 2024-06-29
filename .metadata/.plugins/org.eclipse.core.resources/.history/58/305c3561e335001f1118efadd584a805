@@ -1,0 +1,17 @@
+package Recursion;
+
+public class Sum_of_1st_N_Numbes {
+	
+	static void sum(int N) {
+		if(N==0)
+			return 0;
+		else
+		return N+(N-1);
+		
+	}
+
+	public static void main(String[] args) {
+		sum(5);
+	}
+
+}
